@@ -1,9 +1,15 @@
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Product from "./components/Product";
+import Cart from "./components/Cart";
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold bg-blue-500 p-4 text-center text-white">
-        Shopping Cart
-      </h1>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Product />} />
+        <Route path="/cart" element={<Cart />} />
+      </Routes>
     </>
   );
 }
