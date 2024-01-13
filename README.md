@@ -65,7 +65,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://online-shopping-wale.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
